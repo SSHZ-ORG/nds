@@ -3,10 +3,10 @@ package nds
 import (
 	"sync"
 
-	"golang.org/x/net/context"
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
-	"google.golang.org/appengine/memcache"
+	"context"
+	"google.golang.org/appengine/v2"
+	"google.golang.org/appengine/v2/datastore"
+	"google.golang.org/appengine/v2/memcache"
 )
 
 // deleteMultiLimit is the App Engine datastore limit for the maximum number

@@ -5,9 +5,10 @@ import (
 	"testing"
 
 	"github.com/qedus/nds"
-	"golang.org/x/net/context"
-	"google.golang.org/appengine"
-	"google.golang.org/appengine/datastore"
+
+	"context"
+	"google.golang.org/appengine/v2"
+	"google.golang.org/appengine/v2/datastore"
 )
 
 func TestTransactionOptions(t *testing.T) {
